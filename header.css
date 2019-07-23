@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: sans-serif;
+  border-bottom: 1px solid rgb(240, 238, 238);
+}
+
+.header .wrap {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .wrap .group {
+    display: none;
+  }
+}
+
+.header .wrap .flex-item a {
+  padding: 0 8px;
+  color: rgb(128, 126, 126);
+  text-decoration: none;
+}
+
+.header .wrap .connexion:hover a,
+.header .wrap .inscription:hover a {
+  color: rgb(92, 140, 211);
+}
+
+.header .wrap .logo {
+  flex: 1 0 150px;
+}
+
+.header .wrap .group a{
+  border-right: 1px solid gainsboro;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(92, 140, 211);
+}
