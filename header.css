@@ -4,12 +4,11 @@
 }
 
 .header {
-  font-family: sans-serif;
   border-bottom: 1px solid rgb(240, 238, 238);
 }
 
 .header .wrap {
-  padding: 1em;
+  padding: 1.5em;
   display: flex;
   align-items: center;
 }
